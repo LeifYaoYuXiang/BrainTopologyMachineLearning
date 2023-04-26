@@ -7,6 +7,7 @@ def parser_args():
     # data
     parser.add_argument('--dataset_dir', type=str, default=r'data')
     parser.add_argument('--dataset_type', type=str, default=r'EEG')
+    parser.add_argument('--label_filepath', type=str, default=r'data/eeg_label.pkl')
 
     # model
     parser.add_argument("--model_name", type=str, default="bagging")
